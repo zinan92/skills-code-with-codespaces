@@ -11,12 +11,12 @@
     "vscode" : {
       "extensions" : [
         "Github.copilot"
-        ]
+      ]
     },
     "codespaces" : {
       "openFiles" : [
         codespace.md"
-        ]
+      ]
     }
   }
 }
