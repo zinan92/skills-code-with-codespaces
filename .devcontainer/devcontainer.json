@@ -5,8 +5,9 @@
   "image" : "mcr.microsoft.com/vscode/devcontainers/universal:latest",
     
   "remoteUser" : "codespace",
-  "overrideCommand" : false
-  ,
+  "overrideCommand" : false,
+  "postCreateCommand": "echo 'Post create command was run'",
+    
   // add the IDs of extensions you want installed when the contained is created
   "customizations" : {
     "vscode" : {
