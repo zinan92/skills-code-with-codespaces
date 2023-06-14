@@ -6,4 +6,17 @@
     
   "remoteUser" : "codespace",
   "overrideCommand" : false
+  // add the IDs of extensions you want installed when the contained is created
+  "customizations" : {
+    "vscode" : {
+      "extensions" : [
+        "Github.copilot"
+        ]
+    },
+    "codespaces" : {
+      "openFiles" : [
+        codespace.md"
+        ]
+    }
+  }
 }
